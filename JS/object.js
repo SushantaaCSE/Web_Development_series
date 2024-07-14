@@ -9,13 +9,24 @@ const user={
     location:"westbengal"
 
 }
-console.log(user.name);
-console.log(user["full name"]);
-console.log(user[sym]);
-console.log(typeof(user[sym]))
-user.location="bankura"
-console.log(user.location);
-Object.freeze(user);
-user.location="up"
-console.log(user.location)
-console.log(user);
+// console.log(user.name);
+// console.log(user["full name"]);
+// console.log(user[sym]);
+// console.log(typeof(user[sym]))
+// user.location="bankura"
+// console.log(user.location);
+// Object.freeze(user);
+// user.location="up"
+// console.log(user.location)
+// console.log(user);
+
+const course={
+    coursename:"jsHindi",
+    price:"2000",
+
+
+}
+// const{coursename}=course
+const{coursename:csName}=course
+// console.log(coursename)
+console.log(csName)

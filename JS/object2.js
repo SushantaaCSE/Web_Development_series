@@ -14,3 +14,7 @@ const obj1={
 
 }
 console.log(regularUser);
+console.log("user keys");
+console.log(Object.keys(user))
+console.log("user values");
+console.log(Object.values(user));
