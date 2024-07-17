@@ -9,3 +9,7 @@ function add(num1,num2){
 }
 const result=add(1,2);
 console.log(result)
+// this type of function is called expression
+const addOne=function(num){
+    return num+1;
+}
